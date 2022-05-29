@@ -131,17 +131,7 @@ footer .social-media img {
 
 footer .contact p {
   color: rgba(199, 199, 199, 0.616);
-  line-height: 10px;
-}
-
-footer .contact-us input,
-footer textarea {
-  background-color: rgba(243, 243, 243, 0.918);
-  width: 100%;
-  padding: 5px 0 5px 5px;
-  margin-bottom: 10px;
-  border-radius: 2px;
-  outline: 0;
-  border: 0;
+  padding: 0;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
