@@ -94,6 +94,8 @@
 
 /* Gallery */
 #gallery {
+    background-image: url(/Images/banner.jpg);
+    background-position: bottom;
 
     .gallery-heading {
         h4 {
@@ -113,7 +115,7 @@
 
 /* Footer Section */
 footer {
-    background-color: #3A424E;
+    background-color: #F8F9FA;
     overflow: hidden;
 
     .footer-brand h2 {
@@ -125,7 +127,7 @@ footer {
     }
 
     .footer-paragraph p {
-        color: rgba(199, 199, 199, 0.616);
+        color: rgba(51, 51, 51, 0.541);
     }
 
     .social-media img {
@@ -133,7 +135,7 @@ footer {
     }
 
     .contact p {
-        color: rgba(199, 199, 199, 0.616);
+        color: rgba(51, 51, 51, 0.541);
         padding: 0;
         margin: 0;
     }
