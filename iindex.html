@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Sass  -->
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- Relway Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>MHS Restaurant</title>
+</head>
+<body>
+    <!-- Header Part -->
+    <header id="header">
+        <!-- Navigatin Bar -->
+        <nav class="navbar fixed-top container">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light fw-bold text-uppercase " href="#">MHS Restaurant</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MHS Restaurant</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#story">Story</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+          <!-- banner part -->
+          <div id="banner-content" class="py-5 container text-center text-light">
+              <h1>Luxury Restaurant!</h1>
+              <h5 class="py-2">Try To Be Opened</h5>
+              <button class="btn btn-outline-light" id="banner-btn">Restaurant</button>
+          </div>
+          <a href="#story" class=" mt-5 d-flex justify-content-center"><img src="Icon/icons8-below-60.png" alt="" class="bg-light rounded-circle mt-5"></a>
+    </header>
+    <main>
+
+        <!-- Story Section -->
+        <section id="story" class=" py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-grid align-content-center pe-4" id="story-content">
+                        <h4 class="fst-italic fw-bold">Discover</h4>
+                        <h2>Our Story</h2>
+                        <p class="opacity-50">Please! write your sweet company story. consectetur, adipisicing elit. Aliquam laborum vel molestias, quidem eos accusantium optio distinctio repudiandae sit a maxime harum ab, eius nihil! Nostrum culpa provident blanditiis impedit voluptate cum aliquam corporis deserunt et! Fugit ipsam voluptatibus debitis!</p>
+                        <div class="d-flex gap-4 py-4 ">
+                            <img src="Images/chef.jpg" alt="" class="master-chef rounded-circle">
+                            <div class="d-grid align-content-center">
+                                <h4 class="fw-bold lh-1">Mehedi Hasan</h4>
+                                <p>Master Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <img src="Images/story.jpg" alt="" class="w-100 shadow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       <!-- Menu Section -->
+
+       <section id="menu" class="py-5">
+           <div class="container">
+               <div class="text-center pb-3">
+                <h4 class="fst-italic fw-bold">Discover</h4>
+                <h2 class="fw-bold text-light">Our Menu</h2>
+               </div>
+                <div class="row text-center text-light">
+                    <div class="col-md-4 burger">
+                        <h3>Burger</h3>
+                        <div>
+                            <p>Normal Burger--------------------- 80</p>
+                            <p>Chees Burger--------------------- 100</p>
+                            <p>Chicken Burger------------------ 100</p>
+                            <p>Beef Burger ---------------------- 120</p>
+                            <p>Naga Burger --------------------- 120</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Dessert</h3>
+                        <div>
+                            <p>Fruite and Cream --------------------- 80</p>
+                            <p>Ice-Cream (polar) ------------------- 220</p>
+                            <p>Chocolate Cake ---------------------- 200</p>
+                            <p>Strawberry Cake --------------------- 200</p>
+                            <p>Apple PIE ------------------------------- 120</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Drinks</h3>
+                        <div>
+                            <p>Mineral Water --------------------- 15</p>
+                            <p>Fruite Juice ------------------------- 60</p>
+                            <p>Coffee --------------------------------- 80</p>
+                            <p>Tea -------------------------------------- 30</p>
+                            <p>Wines --------------------------------- 400</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+
+       <!-- Book Table section -->
+       <section id="book_table">
+           <div class="container py-5">
+               <div class="table-heading text-center">
+                   <h4 class="fst-italic fw-bold">Restaurant</h4>
+                   <h2>Book A Table</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  Minima dolor repellendus repudiandae porro repellat incidunt quidem at autem animi enim!</p>
+               </div>
+               <form class="p-5">
+                   <input type="text" placeholder="your name" >
+                   <input type="email" placeholder="your@mail.com">
+                   <input type="text" placeholder="+88 000 0000">
+                   <div class="pt-4">
+                    <input type="number" name="" id="" placeholder="person">
+                    <input type="date" placeholder="05/05/2022">
+                    <input type="time" placeholder="00:13 AM">
+                   </div>
+               </form>
+           </div>
+       </section>
+
+       <!-- Gallery Part -->
+       <section id="gallery">
+           <div class="container py-5">
+               <div class="text-center pb-4 gallery-heading">
+                <h4 class="fst-italic fw-bold">Discover</h4>
+                <h2 >Gallery</h2>
+               </div>
+               <div class="row gallery-frame">
+                   <div class="col-md-4"><img src="Images/gallery-1.jpg" alt="" class="w-100"></div>
+                   <div class="col-md-4"><img src="Images/gallery-2.jpg" alt="" class="w-100"></div>
+                   <div class="col-md-4"><img src="Images/gallery-3.jpg" alt="" class="w-100"></div>
+                   <div class="col-md-4"><img src="Images/gallery-4.jpg" alt="" class="w-100"></div>
+                   <div class="col-md-4"><img src="Images/gallery-5.jpg" alt="" class="w-100"></div>
+                   <div class="col-md-4"><img src="Images/story.jpg" alt="" class="w-100"></div>
+               </div>
+           </div>
+       </section>
+
+       <!-- map -->
+       <section>
+           <div>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.25938632708!2d90.38425380000001!3d23.7985053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1653766359776!5m2!1sen!2sbd" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+       </section>
+    </main>
+    <footer id="footer">
+        <div class="container pt-5 pb-2">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-brand text-light">
+                        <h2>MHS</h2>
+                        <span>Restaurant</span>
+                    </div>
+                    <div class="footer-paragraph text-light pt-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cum! Ipsum at nam debitis neque, temporibus laborum? Debitis laudantium nobis similique, saepe voluptas iusto, consequuntur ipsum, minus unde voluptatem consequatur.</p>
+                    </div>
+                    <div class="social-media text-light pb-4">
+                        <a href=""><img src="Icon/fb-icon.png" alt=""></a>
+                        <a href=""><img src="Icon/gmail-icon.png" alt=""></a>
+                        <a href=""><img src="Icon/linkdin-icon.png" alt=""></a>
+                        <a href=""><img src="Icon/skype-icon.png" alt=""></a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 text-light pb-4">
+                    <h4>Opening Hours</h4>
+                    <div class="row">
+                        <div class="col-4">
+                            Monday
+                        </div>
+                        <div class="col-8">
+                            3PM - 10PM
+                        </div>
+                        <div class="col-4">
+                            Tuesday
+                        </div>
+                        <div class="col-8">
+                            3PM - 10PM
+                        </div>
+                        <div class="col-4">
+                            Wednesday
+                        </div>
+                        <div class="col-8">
+                            3PM - 10PM
+                        </div>
+                        <div class="col-4">
+                            Thursday
+                        </div>
+                        <div class="col-8">
+                            3PM - 10PM
+                        </div>
+                        <div class="col-4">
+                            Friday
+                        </div>
+                        <div class="col-8">
+                            3PM - 10PM
+                        </div>
+                        <div class="col-4">
+                            Saturday
+                        </div>
+                        <div class="col-8">
+                            3PM - 10PM
+                        </div>
+                        <div class="col-4">
+                            Sunday
+                        </div>
+                        <div class="col-8">
+                            Offday
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 contact">
+                    <h3 class="text-light">Contact</h3>
+                    <div class="lh-1">
+                        <p>Address: Your Address Input Please!</p>
+                        <p>Email: mail@your.com</p>
+                        <p>Fax: Fax@your.com</p>
+                        <p>Phone: +88 000 0000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center text-secondary">Copyright &copy; designed by <a href="#" class="text-warning fs-5 text-decoration-none ps-2">Mehedi</a></p>
+    </footer>
+
+    <!-- Bootstrap JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
